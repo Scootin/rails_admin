@@ -32,9 +32,16 @@ RailsAdmin is a Rails engine that provides an easy-to-use interface for managing
 
 
 ## Installation
+1. Include `rails_admin` in your `Gemfile`
+```ruby
+gem 'rails_admin'
+```
+Then `bundle install`
 
-1. Bundle the gem
-2. Run `rails g rails_admin:install`
+2. Run the generator
+```ruby
+rails g rails_admin:install
+```
 3. Provide a namespace for the routes when asked
 4. Start a server `rails s` and administer your data at [/admin](http://localhost:3000/admin). (if you chose default namespace: /admin)
 
